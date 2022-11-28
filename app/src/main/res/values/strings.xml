@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Primer Deber UI</string>
+    <string name="lbl_titulo">Registro de Datos</string>
+    <string name="lbl_numeroid">Numero de ID:</string>
+    <string name="lbl_nombre">Nombre:</string>
+    <string name="lbl_fechanac">Fecha de Nacimiento:</string>
+    <string name="lbl_ciudad">Ciudad:</string>
+    <string name="lbl_genero">Genero:</string>
+    <string name="lbl_correo">Correo:</string>
+    <string name="lbl_Telefono">Telefono:</string>
+    <string name="lbl_masculino">Masculino</string>
+    <string name="lbl_Femenino">Femenino</string>
+    <string name="lbl_Enviar">ENVIAR</string>
+    <string name="lbl_final">Todos los datos han sido incorporados</string>
+    <string name="lbl_recepciondatos">Recepción de Datos</string>
+    <string name="lbl_flecha">Regresa a la pagina anterior</string>
+    <string name="txt_numeroid">Ingrese su ID</string>
+    <string name="txt_nombre">Ingrese su Nombre</string>
+    <string name="txt_fechaNAc">dd/mm/yyyy</string>
+    <string name="txt_ciudad">Ingrese la ciudad</string>
+    <string name="txt_correo">Ingrese el correo</string>
+    <string name="txt_telefono">Ingrese su telefono</string>
+</resources>

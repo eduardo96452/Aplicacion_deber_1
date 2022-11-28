@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#978BC34A"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lbltitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/lbl_titulo"
+        android:textAlignment="center"
+        android:textColor="#0626D5"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtnemeroID"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbltitulo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="9dp"
+        android:layout_toEndOf="@+id/lblnumeroID"
+        android:autofillHints="none"
+        android:ems="10"
+        android:hint="@string/txt_numeroid"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="#2E7D32"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnemeroID"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="7dp"
+        android:layout_toEndOf="@+id/lblnombre"
+        android:autofillHints="none"
+        android:ems="10"
+        android:hint="@string/txt_nombre"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#2E7D32"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblfechanac"
+        android:layout_width="120dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="168dp"
+        android:text="@string/lbl_fechanac"
+        android:textColor="#0626D5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblcorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="417dp"
+        android:text="@string/lbl_correo"
+        android:textColor="#0626D5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblgenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="332dp"
+        android:text="@string/lbl_genero"
+        android:textColor="#0626D5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblciudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="247dp"
+        android:text="@string/lbl_ciudad"
+        android:textColor="#0626D5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="124dp"
+        android:text="@string/lbl_nombre"
+        android:textColor="#0626D5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblnumeroID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="71dp"
+        android:text="@string/lbl_numeroid"
+        android:textColor="#0626D5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbltelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="477dp"
+        android:text="@string/lbl_Telefono"
+        android:textColor="#0626D5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etdfechaNac"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="7dp"
+        android:layout_toEndOf="@+id/lblfechanac"
+        android:autofillHints="none"
+        android:ems="10"
+        android:hint="@string/txt_fechaNAc"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#2E7D32"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtciudad"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etdfechaNac"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="9dp"
+        android:layout_toEndOf="@+id/lblciudad"
+        android:autofillHints="none"
+        android:ems="10"
+        android:hint="@string/txt_ciudad"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#2E7D32"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtcorreo"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/lblcorreo"
+        android:autofillHints="none"
+        android:ems="10"
+        android:hint="@string/txt_correo"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#2E7D32"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnenviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginBottom="19dp"
+        android:onClick="btEnviar"
+        android:text="@string/lbl_Enviar"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txttelefono"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toEndOf="@+id/lbltelefono"
+        android:autofillHints="none"
+        android:ems="10"
+        android:hint="@string/txt_telefono"
+        android:inputType="phone"
+        android:textColorHint="#2E7D32"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="11dp">
+
+        <RadioButton
+            android:id="@+id/rbtmas"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="@string/lbl_masculino"
+            android:textColor="#757575"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbtfem"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="@string/lbl_Femenino"
+            android:textColor="#757575"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+</RelativeLayout>
